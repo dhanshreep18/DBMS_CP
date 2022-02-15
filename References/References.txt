@@ -1,0 +1,9 @@
+HEADERS IN CPP https://stackoverflow.com/questions/9579930/separating-class-code-into-a-header-and-cpp-file https://stackoverflow.com/questions/8621507/including-header-files-from-different-directories/40972126
+INTERPRETER / PARSER https://softwareengineering.stackexchange.com/questions/126080/how-to-write-a-command-interpreter-parser
+TOKENIZING https://www.geeksforgeeks.org/tokenizing-a-string-cpp/
+REPL https://cstack.github.io/db_tutorial/parts/part1.html
+FILE IO https://stackoverflow.com/questions/2393345/how-to-append-text-to-a-text-file-in-c https://www.cplusplus.com/doc/tutorial/files/
+Reading file and storing in string :-
+https://www.delftstack.com/howto/cpp/read-file-into-string-cpp/
+Deleting required line from string :-
+https://stackoverflow.com/questions/26576714/deleting-specific-line-from-file/26576801#:~:text=open(%22temp.,%3C%20endl%3B%20%7D%20%7D%20temp.

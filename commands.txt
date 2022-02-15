@@ -1,0 +1,15 @@
+INSERT INTO Students VALUES (120, Veronica, CS)
+
+UPDATE "Students" SET "Branch"="CS", "Name"="Samuel" WHERE "ID"="111"
+
+UPDATE "Student Details" SET "department"="ENTC", "name"="Mellisa" WHERE "id"="531"
+
+UPDATE "Student Details" SET "department"="EXTC" WHERE "id"="871"
+
+CREATE TABLE "Student Details" ("id" INT, "name" STRING, "city" STRING, "department" STRING, "active" BOOL, PRIMARY KEY ("id", "name"), FOREIGN KEY ("city") REFERENCES "Address table" ("city"), FOREIGN KEY ("department") REFERENCES "College Departments" ("department name"));
+
+CREATE TABLE "Student Details" ("id" INT, "name" STRING, "city" STRING, "department" STRING, "active" BOOL, FOREIGN KEY ("city") REFERENCES "Address table" ("city"), FOREIGN KEY ("department") REFERENCES "College Departments" ("department name"));
+
+CREATE TABLE "Student Details" ("id" INT, "name" STRING, "city" STRING, "department" STRING, "active" BOOL, PRIMARY KEY ("id", "name"));
+
+CREATE TABLE "Student Tanle" ("id" INT, "name" STRING, "city" STRING, "department" STRING, "active" BOOL, PRIMARY KEY ("id", "name"));

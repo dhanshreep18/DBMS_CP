@@ -1,0 +1,24 @@
+Students BioData#id#INT#UNIQUE#name#STRING#DEFAULT : "abcd"#city#STRING#CHECK : city != "xyz"#department#STRING#NONE#active#BOOL#DEFAULT : "0"
+PRIMARY#id#name
+FOREIGN#city#Address table#city#department#College Departments#department name
+
+Ball#id#INT#CHECK : id != "10"#name#STRING#NONE#city#STRING#NONE#department#STRING#NONE#active#BOOL#NONE
+PRIMARY#id#name
+FOREIGN
+
+Cat#id#INT#DEFAULT : "20"#name#STRING#NONE#city#STRING#NONE#department#STRING#NONE#active#BOOL#NONE
+PRIMARY#id#name
+FOREIGN
+
+Student Tanle#id#INT#NONE#name#STRING#NONE#city#STRING#NONE#department#STRING#NONE#active#BOOL#NOT NULL 
+PRIMARY#id#name
+FOREIGN
+
+Elephant#id#INT#UNIQUE#name#STRING#NONE#city#STRING#NONE#department#STRING#DEFAULT : "none"#active#BOOL#NONE 
+PRIMARY#id#name
+FOREIGN
+
+employee#id#INT#UNIQUE#name#STRING#NOT NULL#city#STRING#DEFAULT : "unavailable"#department#STRING#NONE#salary#INT#CHECK : salary >= "5000" 
+PRIMARY#id
+FOREIGN
+

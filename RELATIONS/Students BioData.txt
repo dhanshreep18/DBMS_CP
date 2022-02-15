@@ -1,0 +1,5 @@
+121#Siri#Boston#CS#1
+144#Colby#Kansas#CH#0
+531#Samuel#LosAngeles#ME#0
+871#Aaron#NewYork#IT#0
+120#Veronica#Connecticut#CS#0
